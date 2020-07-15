@@ -18,7 +18,7 @@ color: #111111;
 }
 
 /*
-h3 is used for the subheadings, like "full-length"
+h3 is used for the subheadings
  */
 
 h3{
@@ -46,7 +46,7 @@ This sets the colour of the link when you hover over it
  */
 
 a:hover {
-  color: blue;
+  color: #483D8B;
 }
 
 /*
@@ -70,7 +70,7 @@ This sets the colour of the circle around the icon when you hover over it
  */
 
 .fab:hover, .fas:hover{
-  background-color: blue;
+  background-color: #483D8B;
 }
 
 /*
