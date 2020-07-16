@@ -3,6 +3,10 @@ html, body{
   color: #111111;
 }
 
+post.html {
+  background-colour:#F8C0EF;
+}
+
 /* name at top */
 
 h1{
