@@ -48,6 +48,10 @@ h3 {
   text-transform: lowercase;
 }
 
+li {
+  list-style: none;
+}
+
 
 /* Heading and name */
 
@@ -116,4 +120,15 @@ a > .fab, a > .fas{
 
 .fab:hover, .fas:hover{
   background-color: #535151;
+}
+
+/* Stuff on links pages */
+
+#work-links {
+  text-decoration: none;
+  color: #111111;
+}
+
+#work-links:hover {
+  color:#535151
 }
