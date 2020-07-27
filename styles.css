@@ -48,6 +48,13 @@ h3 {
   text-transform: lowercase;
 }
 
+h4 {
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 23px;
+}
+
 li {
   list-style: none;
 }
