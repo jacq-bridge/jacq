@@ -1,0 +1,119 @@
+/* this is the CSS for my website
+
+I am going to try and make this as easy to read as possible so that when I need
+to change something I can do so easily
+
+This area is where I'm keeping my colours so that I can reference them easily:
+
+Background pink: #F7D7D7
+Text blackish: #111111
+Link hover grey: #535151 */
+
+
+/* General area */
+
+body {
+	background:#F7D7D7;
+	color: #111111;
+	font-size: 20px;
+	font-family:'Source Sans Pro', sans-serif, helvetica;
+  font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+.container {
+	width: 924px;
+	margin: 0 auto;
+	padding: 10px 24px;
+}
+
+/* Typography */
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+h3 {
+  text-align: center;
+  text-transform: lowercase;
+}
+
+
+/* Heading and name */
+
+#name .container {
+  padding: 10px 24px;
+  height: 100px;
+}
+
+/* Header */
+
+header nav {
+	text-align: center;
+  height: 100px;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	line-height: 141px;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+header nav ul li a {
+  color: #333;
+	text-decoration: none;
+  text-transform: lowercase;
+	font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #535151;
+}
+
+/* Bio bit */
+
+.container #bio {
+  padding: 0 20px 20px 20px;
+}
+
+/* Contact area inc buttons */
+
+#button-block {
+  position: relative;
+  left: 310px;
+}
+
+.fab, .fas{
+  vertical-align: middle;
+  background-color: #333;
+  border-radius: 50%;
+  padding: 0.7em;
+  margin: 0.8em;
+  display: inline-block;
+}
+
+a > .fab, a > .fas{
+  color: #F9F7F7;
+  font-size: 1.2em;
+}
+
+.fab:hover, .fas:hover{
+  background-color: #535151;
+}
