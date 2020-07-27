@@ -128,11 +128,11 @@ a > .fab, a > .fas{
 
 /* Stuff on links pages */
 
-#links li a{
+li a{
   text-decoration: none;
   color: #111111;
 }
 
-#links li a:hover {
+li a:hover {
   color:#535151
 }
