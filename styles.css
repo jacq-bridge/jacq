@@ -128,7 +128,7 @@ a > .fab, a > .fas{
 
 /* Stuff on links pages */
 
-#work-links {
+#work-links a{
   text-decoration: none;
   color: #111111;
 }
